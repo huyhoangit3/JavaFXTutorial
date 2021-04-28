@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class StackPaneTest extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
         Button btn1 = new Button("Button 1 on bottom ");
         Button btn2 = new Button("Button 2 on top");
         StackPane root = new StackPane(btn1, btn2);

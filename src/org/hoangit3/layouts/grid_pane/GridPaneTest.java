@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 public class GridPaneTest extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage){
         Label lblUsername = new Label("UserName: ");
         Label lblPassword = new Label("Password: ");
         TextField txtUsername = new TextField();

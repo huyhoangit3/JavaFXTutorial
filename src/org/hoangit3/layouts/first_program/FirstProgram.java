@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 public class FirstProgram extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
         Button button1 = new Button();
         button1.setText("Click me");
         button1.setOnAction(event -> System.out.println("Button 1 clicked."));

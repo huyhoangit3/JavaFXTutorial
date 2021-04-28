@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 public class FlowPaneTest extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
         Button btn1 = new Button("Button 1");
         Button btn2 = new Button("Button 2");
         Button btn3 = new Button("Button 3");
